@@ -1,5 +1,10 @@
 # Faster Vertex Cover Algorithms on GPU
-Faster vertex cover algorithms on GPUs with component-aware parallel branching by Hussein Amro, Basel Fakhri, Izzat El Hajj, and Amer E Mouawad.
+Faster vertex cover algorithms on GPUs with component-aware parallel branching by Hussein Amro, Basel Fakhri, Amer E. Mouawad, and Izzat El Hajj.
+
+#Reference
+- H. Amro, B. Fakhri, A. E. Mouawad and I. E. Hajj, "Faster Vertex Cover Algorithms on GPUs With Component-Aware Parallel Branching," in IEEE Transactions on Parallel and Distributed Systems, vol. 37, no. 2, pp. 504-517, Feb. 2026, doi: [10.1109/TPDS.2025.3641049](https://doi.org/10.1109/TPDS.2025.3641049).
+
+Please cite this paper if you find our work useful.
 
 # Description
 CUDA/C++ implementation of a component-aware, load-balanced GPU solver for Minimum Vertex Cover and its parameterized (k-VC) variant. It detects connected-component splits on the fly, parallelizes non-tail-recursive branches via last-descendant aggregation, and applies graph reductions to lower memory use—achieving seconds-scale runtimes where prior GPU methods exceed hours [1].
