@@ -1,6 +1,8 @@
 # Faster Vertex Cover Algorithms on GPU
 Faster vertex cover algorithms on GPUs with component-aware parallel branching by Hussein Amro, Basel Fakhri, Amer E. Mouawad, and Izzat El Hajj.
-
+<p align="center">
+  <img src="mvc-component.pdf" alt="Operon prediction pipeline" width="750">
+</p>
 # Reference
 - H. Amro, B. Fakhri, A. E. Mouawad and I. E. Hajj, "Faster Vertex Cover Algorithms on GPUs With Component-Aware Parallel Branching," in IEEE Transactions on Parallel and Distributed Systems, vol. 37, no. 2, pp. 504-517, Feb. 2026, doi: [10.1109/TPDS.2025.3641049](https://doi.org/10.1109/TPDS.2025.3641049).
 
